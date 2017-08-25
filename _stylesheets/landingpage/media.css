@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27.02.2016, 17:46:53
+    Author     : marcozinn
+*/
+
+@media (max-width: 621px) {
+    .header ul.app-nav {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 531px) {
+    .header{
+        display: block;
+        clear: both;
+        min-height: 112px;
+    }
+    .header ul.app-nav{
+        clear: both;
+        display: block;
+    }
+    .brand-container{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #EEE;
+    }
+    .header ul.app-nav {
+        margin-left: 0px;
+    }
+    .header .menu-right ul.product-nav li a .fa {
+        margin-left: 10px;
+        display: none;
+    }
+    /*
+    .sub-nav{
+        margin-top: 115px;
+    }
+    */
+}

@@ -1,0 +1,26 @@
+<!-- Search modal -->
+<button type="button" class="btn btn-block arago-button" data-toggle="modal" data-target=".search-modal" data-keyboard="true">
+  <span class="icon"></span>
+  <span>Search</span>
+</button>
+
+<div class="modal fade search-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <label for="searchbox" style="margin-right: 10px; display: inline-block;">Search: </label>
+        <input id="searchbox" style="width:80%" type="text" value="" autofocus="" placeholder="Enter a search term">
+      </div>
+      <div class="modal-body">
+        <label for="results" style="display: inline-block; width: 160px;">Results</label>
+        <ul id="results">
+          <li>No results</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block" data-dismiss="modal">ESC or Click to Close</button>
+      </div>
+    </div>
+  </div>
+</div>
